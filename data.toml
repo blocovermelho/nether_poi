@@ -1,0 +1,58 @@
+[[location]]
+# X,Y,Z são coordenadas do portal do lado do nether.
+# Use o `looking_at` do F3 para pegar a coordenada do portal.
+x =  6
+y = 129
+z = 80
+# Os pontos de interesse são uma lista.
+poi_overworld = [ "Ditadura Gayzista" ]
+# Como o portal de araguaia não tem nenhum ponto de interesse no nether, o campo é omitido
+# A radial são as posições das rosa dos ventos Norte/Sul/Leste/Oeste.
+# Nós não precisamos preocupar com que linha do metro atualmente é a utilizada pq isso não é relacionado a estação nenhuma.
+# É só uma lista de portais.
+radial = "S"
+[[location]]
+x = 38
+y = 129
+z = 224
+poi_overworld = [ "Araguaia" ]
+radial = "S"
+[[location]]
+x = 57
+y = 129
+z = 221
+poi_overworld = [ "End" ]
+radial = "S"
+[[location]]
+x = 77
+y = 129
+z = 153
+radial = "S"
+[[location]]
+x = 77
+y = 129
+z = 177
+radial = "S"
+[[location]]
+x = 102
+y = 129
+z = 180
+poi_overworld = [ "Vila Ciano", "Araguaia"]
+[[location]]
+x = 48
+y = 133
+z = 249
+poi_overworld = ["Rogeirinho", "Araguaia"]
+[[location]]
+x = -64
+y = 129
+z = 128
+[[location]]
+x = -78
+y = 129
+z = 86
+[[location]]
+x = -115
+y = 129
+z = 113
+poi_overworld = [ "Vila do Farol" ]
