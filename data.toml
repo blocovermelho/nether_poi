@@ -37,22 +37,27 @@ radial = "S"
 x = 102
 y = 129
 z = 180
+radial = "S"
 poi_overworld = [ "Vila Ciano", "Araguaia"]
 [[location]]
 x = 48
 y = 133
 z = 249
+radial = "S"
 poi_overworld = ["Rogeirinho", "Araguaia"]
 [[location]]
 x = -64
 y = 129
 z = 128
+radial = "S"
 [[location]]
 x = -78
 y = 129
 z = 86
+radial = "S"
 [[location]]
 x = -115
 y = 129
 z = 113
+radial = "S"
 poi_overworld = [ "Vila do Farol" ]
