@@ -2,20 +2,20 @@
 
 #let colors = (x: rgb("#ffbcb6"), y: rgb("#b8ffb3"), z: rgb("c9fffe"))
 
-= Lista de Portais
+= Lista de Portais / POIs
 #{
 
     let south = datum.filter(x => x.radial == "S")
-    south = south.sorted(key: it => (it.x, it.z))
+    south = south.sorted(key: it => (it.z, it.x))
 
     let north = datum.filter(x => x.radial == "N")
-    north = north.sorted(key: it => (-it.x, it.z))
+    north = north.sorted(key: it => (-it.z, it.x))
 
     let east = datum.filter(x => x.radial == "E")
-    east = east.sorted(key: it  => (it.z, it.x))
+    east = east.sorted(key: it  => (it.x, it.z))
 
     let west = datum.filter(x => x.radial == "W")
-    west = west.sorted(key: it => (-it.z, it.x))
+    west = west.sorted(key: it => (-it.x, it.z))
 
 
     let into_data(it) = {
@@ -65,12 +65,12 @@
 
 
     if north.len() > 0 {
-        [== Gelovias: Direção Norte]
+        [== Gelovias: Direção Norte  #{set text(colors.z.darken(40%)); [(-Z)]} ]
         table(
             // Pos, Radial, Overworld, Nether
             columns: 3+2,
             table.header(
-                table.cell(colspan:3)[*Posição*], [*POIs Nether*], [*POIs Overworld*],
+                table.cell(colspan:3, fill: colors.z)[*Posição*], [*POIs Nether*], [*POIs Overworld*],
                 ..north.flatten()
             )
         )
@@ -78,12 +78,12 @@
 
 
     if south.len() > 0 {
-     [== Gelovias: Direção Sul]
+     [== Gelovias: Direção Sul #{set text(colors.z.darken(40%)); [(+Z)]}]
         table(
             // Pos, Radial, Overworld, Nether
             columns: 3+2,
             table.header(
-                table.cell(colspan:3)[*Posição*], [*POIs Nether*], [*POIs Overworld*],
+                table.cell(colspan:3, fill: colors.z)[*Posição*], [*POIs Nether*], [*POIs Overworld*],
                 ..south.flatten()
             )
         )
@@ -92,12 +92,12 @@
 
 
     if east.len() > 0 {
-        [== Gelovias: Direção Leste]
+        [== Gelovias: Direção Leste  #{set text(colors.x.darken(40%)); [(+X)]} ]
         table(
             // Pos, Radial, Overworld, Nether
             columns: 3+2,
             table.header(
-                table.cell(colspan:3)[*Posição*], [*POIs Nether*], [*POIs Overworld*],
+                table.cell(colspan:3, fill: colors.x)[*Posição*], [*POIs Nether*], [*POIs Overworld*],
                 ..east.flatten()
             )
         )
@@ -105,12 +105,12 @@
 
 
    if west.len() > 0 {
-        [== Gelovias: Direção Oeste]
+        [== Gelovias: Direção Oeste #{set text(colors.x.darken(40%)); [(-Z)]}]
         table(
             // Pos, Radial, Overworld, Nether
             columns: 3+2,
             table.header(
-                table.cell(colspan:3)[*Posição*], [*POIs Nether*], [*POIs Overworld*],
+                table.cell(colspan:3, fill: colors.x)[*Posição*], [*POIs Nether*], [*POIs Overworld*],
                 ..west.flatten()
             )
         )
