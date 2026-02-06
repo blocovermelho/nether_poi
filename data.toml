@@ -61,3 +61,169 @@ y = 129
 z = 113
 radial = "S"
 poi_overworld = [ "Vila do Farol" ]
+[[location]]
+x = 80
+y = 129
+z = 89
+radial = "S"
+poi_overworld = [ "Casa do juliobnave" ]
+[[location]]
+x = 119
+y = 129
+z = 118
+radial = "S"
+poi_overworld = [ "Farm Raid" ]
+[[location]]
+x = 127
+y = 129
+z = -21
+radial = "E"
+poi_overworld = [ "Gelopista" ]
+[[location]]
+x = 198
+y = 131
+z = -28
+radial = "E"
+poi_overworld = [ "Valée Liénne", "Casa koffee" ]
+[[location]]
+x = 259
+y = 129
+z = 10
+radial = "E"
+[[location]]
+x = 318
+y = 132
+z = -89
+radial = "E"
+[[location]]
+x = 214
+y = 129
+z = -205
+radial = "E"
+poi_overworld = ["Coguilha", "Duper FallingBlock"]
+[[location]]
+x = 247
+y = 129
+z = -241
+radial = "E"
+[[location]]
+x = 152
+y = 129
+z = 48
+radial = "E"
+[[location]]
+x = 187
+y = 129
+z = 88
+radial = "E"
+[[location]]
+x = 263
+y = 129
+z = 165
+radial = "E"
+[[location]]
+x = 417
+y = 129
+z = 140
+radial = "E"
+[[location]]
+x = -18
+y = 129
+z = 1702
+radial = "S"
+[[location]]
+x = -85
+y = 129
+z = 1305
+radial = "S"
+[[location]]
+x = -61
+y = 132
+z = 1250
+radial = "S"
+[[location]]
+x = -100
+y = 129
+z = 1221
+radial = "S"
+[[location]]
+x = 193
+y = 132
+z = 1183
+radial = "S"
+[[location]]
+x = -258
+y = 129
+z = 1195
+radial = "S"
+[[location]]
+x = -12
+y = 129
+z = 813
+radial = "S"
+poi_nether = ["Farm Ouro"]
+poi_overworld = ["Stalingrado"]
+[[location]]
+x = 30
+y = 132
+z = 701
+radial = "S"
+[[location]]
+x = -32
+y = 129
+z = 409
+radial = "S"
+[[location]]
+x = 8
+y = 129
+z = 390
+radial = "S"
+poi_overworld = ["Farm Afogado"]
+[[location]]
+x = 90
+y = 134
+z = 431
+radial = "S"
+poi_overworld = ["Palácio das Azaleias"]
+[[location]]
+x = 334
+y = 129
+z = 402
+radial = "S"
+[[location]]
+x = 552
+y = 126
+z = 440
+radial = "S"
+poi_nether = ["Farm Wither Skull"]
+[[location]]
+x = 319
+y = 128
+z = 453
+radial = "S"
+poi_nether = ["Farm Ghast"]
+[[location]]
+x = 228
+y = 128
+z = 488
+radial = "S"
+poi_nether = ["Farm Magma"]
+[[location]]
+x = 162
+y = 126
+z = 488
+radial = "S"
+poi_nether = ["Farm Froglight"]
+[[location]]
+x = 152
+y = 1305
+z = 333
+radial = "S"
+poi_nether = ["Farm Guardian"]
+poi_overworld = ["Farm Guardian"]
+[[location]]
+x = 190
+y = 131
+z = 339
+radial = "S"
+poi_overworld = ["Farm Creeper"]
