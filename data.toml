@@ -216,7 +216,7 @@ radial = "S"
 poi_nether = ["Farm Froglight"]
 [[location]]
 x = 152
-y = 1305
+y = 130
 z = 333
 radial = "S"
 poi_nether = ["Farm Guardian"]
